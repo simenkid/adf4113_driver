@@ -22,9 +22,11 @@ step3: Change the MCU header file & re-assign the GPIOs used by the buttons in m
 APIs
 
 1. HalSynInit(void) 
+ 
     Initialize the synthesizer when powered up.
     
 2. HalSynStart(uint16 rf_Freq) 
+ 
     Call this function to start the synthesizer with rf_Freq.
     The unit of the rf_Freq is MHz.
     For exmaple: HalSynStart(2430) will tell the synthesizer 
