@@ -17,7 +17,7 @@ step3: Change the MCU header file & re-assign the GPIOs used by the buttons in m
  
     #include  <msp430g2452.h> -> #include  <ioAT89C52.h> 
     #define BTN1 BV(3) -> #define BTN1 P3_bit.P3_2 
-    Modified the code to make it run! 
+    Modifiy the code to make it run! 
 
 APIs
 
